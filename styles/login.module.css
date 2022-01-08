@@ -1,0 +1,84 @@
+.container {
+  width: 65vw;
+  height: 70vh;
+  background-color: #ffffff;
+}
+.wrap_img {
+  width: calc(70vh);
+  height: 70vh;
+}
+
+.logo_form {
+  width: 100%;
+  height: 5vh;
+}
+/*Phần form đăng nhập*/
+.form_login {
+  padding: 20px;
+}
+.title_form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.input_form {
+  width: 100%;
+  height: 5vh;
+}
+.button_form {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+.button_form button {
+  background: #f47458;
+  border-radius: 16px;
+  border: none;
+  color: #ffffff;
+  width: 50%;
+}
+.text_foget_password {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: #595959;
+  padding: 10px;
+}
+/*Màn hình iphone*/
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    overflow: scroll;
+    overflow-y: hidden;
+  }
+  .wrap_img {
+    width: 60%;
+  }
+  .logo_form {
+    display: none;
+  }
+  .title_form {
+    font-size: 7vw;
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    border-radius: 1em;
+    padding: 5px;
+  }
+}
+/*Ipad ngang & destop*/
+/* @media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    border-radius: 1em;
+    padding: 5px;
+  }
+} */
